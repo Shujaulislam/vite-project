@@ -41,6 +41,11 @@ const RegisterPage = () => {
     setTimeout(() => {
       navigate("/login");
     }, 2000);
+    setForm({
+      name: "",
+      email: "",
+      password: "",
+    });
   };
 
   return (
